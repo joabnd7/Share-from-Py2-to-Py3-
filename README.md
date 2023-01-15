@@ -15,7 +15,7 @@ https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 to get things installed and running in Ubuntu under Windows. 
 Start the REDIs server with:
 in Ubuntu at the command line:
-' sudo service redis-server start'
+''' sudo service redis-server start '''
 
 
 STEP 1: 
