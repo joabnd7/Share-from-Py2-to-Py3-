@@ -37,6 +37,7 @@ Then in Ubuntu under Windows wsl2 at the command line:
  
  https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py3.py
  
+** To become a Ninja: change the data frame in the py2 code, run the py2 code, then run the get command in Ubuntu, then run the py3 code**
  
  Happy? check out our web page :    https://joab.ai
  
