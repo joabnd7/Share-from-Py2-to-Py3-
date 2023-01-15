@@ -40,4 +40,4 @@ Then in Ubuntu under Windows wsl2 at the command line:
  
  Happy? check out our web page :    https://joab.ai
  
- 
+ https://www.buymeacoffee.com/joab.ai
