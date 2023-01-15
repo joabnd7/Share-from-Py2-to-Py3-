@@ -31,5 +31,9 @@ Then in Ubuntu under Windows wsl2 at the command line:
  get 'ch7'
  (you should get your pandas data frame in a somehwat garbled text CSV format but that's ok)
  
- your Python3 code can get this....
+ your Python3 code can get this....don't belive me .... try it
+ 
+ https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py3.py
+ 
+ 
  
