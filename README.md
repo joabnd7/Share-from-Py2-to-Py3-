@@ -23,7 +23,6 @@ STEP 1:
 
 Run the python code:
  
->#py2
 > python io_test_py2.py
  
 (in a PY2 miniconda shell for example).
@@ -32,24 +31,20 @@ STEP 2:
  
 Then in Ubuntu under Windows wsl2 at the command line:
 
->#Ubunutu
 > redis-cli
  
  (starts the REDIS CL interface)
  
  This is just so you can see what is passing thorugh there and not necessary. 
  
-># Ubunutu
 >  ping
  
  (you should get a pong)
  
->#Ubunutu
 > get 'ch5'
  
  (you should get the return item for that key that was saved)
  
- >#Ubunutu
  > get 'ch7'
   
  (you should get your pandas data frame in a somewhat garbled text CSV format but that's ok- we deal with it later in the reader)
@@ -58,6 +53,5 @@ STEP 3:
   
 From a Python 3 shell (in miniconda for example)
   
->#py3
 > python io_test_py3.py
 
