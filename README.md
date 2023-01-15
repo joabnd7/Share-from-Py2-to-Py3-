@@ -1,6 +1,6 @@
 # Share-from-Py2-to-Py3-
 
-This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code. The reason for this is a company X who has not created Py3 drivers for their hardware. In order to use the hardware, you are stuck with Py2, but in reality, for GUIs and UX, you would like to be using Py3... REDIS is running in Ubuntu under WSL2 in Windows. 
+Major frustration in dealing with Py2 and Py3 code that has to run in realtime together. I kno whti sis the obvious solution but it was kind fo tricky so to save others weeks of pain, I decided to post a solution. This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code. The reason for this is a company X who has not created Py3 drivers for their hardware. In order to use the hardware, you are stuck with Py2, but in reality, for GUIs and UX, you would like to be using Py3... REDIS is running in Ubuntu under WSL2 in Windows. 
 https://medium.com/data-engineering-on-cloud/setup-ubuntu-20-04-using-wsl-on-windows-11-61a6451aab65
 
 Use these links:
