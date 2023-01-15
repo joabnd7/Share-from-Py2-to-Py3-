@@ -12,15 +12,14 @@ https://github.com/redis/redis-om-python
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 
 to get things installed and running in Ubuntu under Windows. 
-Start the REDIs server with:
-in Ubuntu at the command line:
+Start the REDIS server in Ubuntu at the command line:
 
 >sudo service redis-server start
 
 
 STEP 1: 
 
-Run the python code:
+Run the python 2 code:
  
 > python io_test_py2.py
  
@@ -50,7 +49,7 @@ Then in Ubuntu under Windows wsl2 at the command line:
  
 STEP 3:
   
-From a Python 3 shell (in miniconda for example)
+From a Python 3 shell (in miniconda for example), run the Python 3 code:
   
 > python io_test_py3.py
 
