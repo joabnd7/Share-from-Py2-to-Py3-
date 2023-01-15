@@ -9,23 +9,17 @@ For more information on REDIS, see these links:
 
 https://github.com/redis/
 
+INSTALL:
+
 I just used 
 
 >pip install redis 
 
 within both the Py2 and Py3 miniconda shells. 
 
+Then to install REDIS withing Ubuntu under Windows WSL:
+
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
-
-to get things installed and running in Ubuntu under Windows. 
-
->curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-
->echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.
-
->sudo apt-get update
-
->sudo apt-get install redis
 
 Start the REDIS server in Ubuntu at the command line:
 
