@@ -1,5 +1,5 @@
 # Share-from-Py2-to-Py3-
-This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code.... REDIS is running in Ubuntu under the WSL2 layer in Windows. Python 2 and Python 3 are running in separate shells under windows (using miniconda). Not a production ready solution, just a way to make things work in this scenario. 
+This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code.... REDIS is running in Ubuntu under the WSL2 layer in Windows. Python 2 and Python 3 are running in separate shells under windows (using miniconda). Not a production ready solution, just a way to make things work in this scenario. For example, if there is a hardware device with drivers that are only in Python2 (and have not been ported to Python3 and are not accesible), but you have a GUI or UX ready to go in Python 3 that doesn't work in Python 2. 
 
 To get Ubuntu running under WSL on Windows:
 
