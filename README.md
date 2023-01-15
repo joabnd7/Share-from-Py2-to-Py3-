@@ -4,8 +4,11 @@ This is a Windows example of how to create a Pandas DataFrame in Python 2 and th
 https://medium.com/data-engineering-on-cloud/setup-ubuntu-20-04-using-wsl-on-windows-11-61a6451aab65
 
 Use these links:
+
 https://github.com/redis/redis-om-python
+
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
+
 to get things installed in Ubuntu under Windows. 
 
 Run the python code in PY2 miniconda shell.
