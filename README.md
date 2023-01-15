@@ -5,13 +5,28 @@ To get Ubuntu running under WSL on Windows:
 
 https://medium.com/data-engineering-on-cloud/setup-ubuntu-20-04-using-wsl-on-windows-11-61a6451aab65
 
-For REDIS, use these links:
+For more information on REDIS, see these links:
 
-https://github.com/redis/redis-om-python
+https://github.com/redis/
+
+I just used 
+
+>pip install redis 
+
+within both the Py2 and Py3 miniconda shells. 
 
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 
 to get things installed and running in Ubuntu under Windows. 
+
+>curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+
+>echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.
+
+>sudo apt-get update
+
+>sudo apt-get install redis
+
 Start the REDIS server in Ubuntu at the command line:
 
 >sudo service redis-server start
