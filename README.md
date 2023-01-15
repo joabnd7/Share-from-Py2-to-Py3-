@@ -11,7 +11,9 @@ https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 
 to get things installed in Ubuntu under Windows. 
 
-Run the python code in PY2 miniconda shell.
+Run the python code 
+https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py2.py
+in PY2 miniconda shell.
 
 Then in Ubuntu under Windows wsl2 at the command line:
 
