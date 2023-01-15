@@ -20,6 +20,6 @@ print(item2.decode())
 s = item2.decode()
 
 #convert back to a Pandas df to march on with
-df = pd.read_csv(StringIO(s), sep=',' )
+df = pd.read_csv(StringIO(s), sep=',' ,index_col=0)
 
-print(df)  #sorry it has an extra column - who cares
+print(df)  
