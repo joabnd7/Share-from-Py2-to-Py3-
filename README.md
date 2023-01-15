@@ -11,8 +11,6 @@ https://github.com/redis/
 
 INSTALL:
 
-I just used 
-
 >pip install redis 
 
 within both the Py2 and Py3 miniconda shells. 
