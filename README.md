@@ -1,44 +1,47 @@
 # Share-from-Py2-to-Py3-
 
-Major frustration in dealing with Py2 and Py3 code that has to run in realtime together. I know to veterans this is the obvious solution, but it was kind of tricky, so to save others weeks of pain, I decided to post a solution. This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code. The reason for this is a company X who has not created Py3 drivers for their hardware. In order to use the hardware, you are stuck with Py2, but in reality, for GUIs and UX, you would like to be using Py3... REDIS is running in Ubuntu under WSL2 in Windows. REDIS is the sheeeeezzzznit (that means awesome). If Elvis was a computer code, he would be REDIS.
+Major frustration in dealing with Py2 and Py3 code that has to run in realtime together while sharing data. I know to veterans this is probably the obvious solution, but it was kind of tricky, so to save others weeks of pain, I decided to post a solution. This is a Windows example of how to create a Pandas DataFrame in Python 2 and then store it using REDIS so that you can read it into a Python 3 code. The reason for this is a company X who has not created Py3 drivers for their hardware Y or Z. In order to use the hardware, you are stuck with Py2, but in reality, for GUIs and UX, you would like to be using Py3... REDIS is running in Ubuntu under the WSL2 layer in Windows.
 
-
+To get Ubunut running under WSL on Windows:
 https://medium.com/data-engineering-on-cloud/setup-ubuntu-20-04-using-wsl-on-windows-11-61a6451aab65
 
-Use these links:
+For REDIS, use these links:
 
 https://github.com/redis/redis-om-python
 
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 
-to get things installed in Ubuntu under Windows. 
+to get things installed and running in Ubuntu under Windows. 
+Start the REDIs server with:
+in Ubuntu at the command line:
+ <Ubunutu> sudo service redis-server start
 
-Run the python code 
-https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py2.py
-in PY2 miniconda shell.
 
+STEP 1: 
+
+Run the python code:
+<py2> python io_test_py2.py
+(in a PY2 miniconda shell for example).
+
+
+STEP 2:
 Then in Ubuntu under Windows wsl2 at the command line:
 
- redis-cli
+<Ubunutu> redis-cli
  (starts the REDIS CL interface)
  
- then type: 
+ This is just so you can see what is passing thorugh there and not necessary. 
  
- ping
+<Ubunutu>  ping
  (you should get a pong)
  
- get 'ch5'
- (you should get shit)
+<Ubunutu> get 'ch5'
+ (you should get the return item for that key that was saved)
  
- get 'ch7'
+ <Ubunutu> get 'ch7'
  (you should get your pandas data frame in a somewhat garbled text CSV format but that's ok- we deal with it later in the reader)
  
- your Python3 code can get this....don't believe me .... try it :)
- 
- https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py3.py
- 
-** To become a Ninja: change the data frame in the py2 code, run the py2 code, then run the get command in Ubuntu, then run the py3 code**
- 
- Happy? check out our web page :    https://joab.ai
- 
- https://www.buymeacoffee.com/joab.ai
+STEP 3:
+From a Python 3 shell (in miniconda for example)
+<py3> python io_test_py3.py
+
