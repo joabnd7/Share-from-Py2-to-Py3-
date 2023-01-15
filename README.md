@@ -38,4 +38,6 @@ Then in Ubuntu under Windows wsl2 at the command line:
  https://github.com/joabnd7/Share-from-Py2-to-Py3-/blob/main/io_test_py3.py
  
  
+ Happy? check out our web page :    https://joab.ai
+ 
  
