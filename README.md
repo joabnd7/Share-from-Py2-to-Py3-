@@ -17,7 +17,7 @@ I just used
 
 within both the Py2 and Py3 miniconda shells. 
 
-Then to install REDIS withing Ubuntu under Windows WSL:
+Then to install REDIS within Ubuntu under Windows WSL:
 
 https://redis.io/docs/getting-started/installation/install-redis-on-windows/
 
