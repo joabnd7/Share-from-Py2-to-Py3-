@@ -31,7 +31,7 @@ Then in Ubuntu under Windows wsl2 at the command line:
  (you should get shit)
  
  get 'ch7'
- (you should get your pandas data frame in a somehwat garbled text CSV format but that's ok)
+ (you should get your pandas data frame in a somewhat garbled text CSV format but that's ok- we dela with it later in the reader)
  
  your Python3 code can get this....don't believe me .... try it :)
  
